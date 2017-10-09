@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="true"
+>
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/white"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark"
+        app:popupTheme="@style/PopupMenuStyle"
+        >
+
+        <Button
+            android:id="@+id/btnClose"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_gravity="left"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_chevron_left_black_24dp"
+
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginRight="40dp"
+            android:gravity="center_vertical"
+            >
+            <TextView
+                android:id="@+id/webViewTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text="검색결과"
+                android:textSize="15sp"
+                />
+            <TextView
+                android:id="@+id/webViewUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:lines="1"
+                android:ellipsize="end"
+                android:text=""
+                android:layout_marginTop="4dp"
+                android:textColor="@color/gray"
+                />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btnOption"
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_gravity="right"
+            android:layout_marginRight="@dimen/margin_small"
+            android:background="@drawable/ic_more_vert_black_24dp"
+            android:elevation="0dp"
+            android:text="" />
+
+
+    </android.support.v7.widget.Toolbar>
+        <android.support.v4.widget.ContentLoadingProgressBar
+            android:id="@+id/progressBar"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_below="@id/toolbar"
+            android:layout_marginTop="-2dp"
+            android:progress="0"
+            />
+        <WebView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/webView"
+            android:layout_below="@+id/toolbar"
+            android:layout_marginBottom="@dimen/bannerHeight"
+            />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:gravity="center"
+                >
+                <com.google.android.gms.ads.AdView
+                    android:id="@+id/adView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/bannerHeight"
+                    app:adSize="BANNER"
+                    app:adUnitId="@string/banner_ad_unit_id_webview"></com.google.android.gms.ads.AdView>
+            </LinearLayout>
+
+
+</RelativeLayout>

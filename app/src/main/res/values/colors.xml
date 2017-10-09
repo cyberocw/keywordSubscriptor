@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><!--
+ Copyright 2014, The Android Open Source Project
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+     http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+-->
+<resources>
+    <color name="window_background">#ccffffff</color>
+    <color name="primary">#495764</color>
+    <color name="primary_header">#778694</color>
+    <color name="primary_dark">#3b4751</color>
+    <color name="primary_light">#a5a8ab</color>
+    <color name="primary_light2">#e3e6e9</color>
+    <color name="accent">#FF4081</color>
+    <color name="red">#ef0f1e</color>
+    <color name="my_primary">#ED1C24</color>
+    <color name="my_primary_dark">#CC0000</color>
+    <color name="my_primary_light">#B3E5FC</color>
+    <color name="my_accent">#FF5722</color>
+    <color name="my_white_text">#ffffff</color>
+    <color name="my_black_text">#1d1d1d</color>
+    <color name="my_icons">#FFFFFF</color>
+    <color name="my_divider">#686868</color>
+    <color name="btn_gray_background">#ebebeb</color>
+    <color name="btn_gray_background_clicked">#e2e2e2</color>
+    <color name="btn_gray_font_color">#747474</color>
+    <color name="btn_gray_stroke">#b4b4b4</color>
+
+    <color name="fab_color_1">#ff5252</color>
+    <color name="fab_color_1_muted">#ff8080</color>
+    <color name="fab_color_2">#9c27b0</color>
+    <color name="fab_color_2_muted">#a56ab0</color>
+    <color name="black_semi_transparent">#b2000000</color>
+    <color name="background">#ffffff</color>
+    <color name="half_black">#808080</color>
+    <color name="white">#fafafa</color>
+    <color name="white_pressed">#f1f1f1</color>
+    <color name="pink">#e91e63</color>
+    <color name="pink_pressed">#ec407a</color>
+    <color name="blue_semi_transparent">#805677fc</color>
+    <color name="blue_semi_transparent_pressed">#80738ffe</color>
+    <color name="background_repeat">#80bfc6df</color>
+    <color name="background_date">#80fcc8db</color>
+    <color name="background_postphone_date">#808eef6a</color>
+    <color name="background_repeat_day">#80decfae</color>
+    <color name="sub_header">#61c0bf</color>
+    <color name="sub_header_pressed">#258f8e</color>
+
+    <color name="black_overlay">#66000000</color>
+
+</resources>
